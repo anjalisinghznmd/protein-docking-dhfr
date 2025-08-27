@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Conda environment
+/bioinfo/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Intermediate files (we can always regenerate these)
+/ligands/*.pdb
+
+# IDE / Editor folders
+.vscode/
+.idea/
