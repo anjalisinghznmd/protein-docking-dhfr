@@ -19,7 +19,7 @@ This repository serves as a showcase of modern bioinformatics skills, integratin
 
 ---
 
-## Workflow Diagram
+## Workflow 
 **Sequence → 3D Structure → Preparation → Docking → Analysis**
 
 1.  **Protein Sequence Acquisition:** The canonical amino acid sequence for human DHFR (P00374) was downloaded from the UniProt database.
