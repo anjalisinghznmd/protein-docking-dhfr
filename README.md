@@ -22,7 +22,7 @@ This repository serves as a showcase of modern bioinformatics skills, integratin
 ## Workflow Diagram
 **Sequence → 3D Structure → Preparation → Docking → Analysis**
 
-![Workflow Diagram](https://i.imgur.com/example-workflow-image.png) 1.  **Protein Sequence Acquisition:** The canonical amino acid sequence for human DHFR (P00374) was downloaded from the UniProt database.
+1.  **Protein Sequence Acquisition:** The canonical amino acid sequence for human DHFR (P00374) was downloaded from the UniProt database.
 2.  **AI-Based Structure Prediction:** The FASTA sequence was used as input for ColabFold to generate a high-quality 3D protein model (`.pdb` file).
 3.  **Receptor Preparation:** The predicted PDB structure was cleaned using PyMOL (removing heteroatoms, adding hydrogens) and then converted to the required `.pdbqt` format using MGLTools.
 4.  **Ligand Preparation:** 3D structures for Methotrexate, Trimethoprim, and Folate were downloaded from PubChem as `.sdf` files. Open Babel was used to convert these to the final `.pdbqt` format.
